@@ -216,46 +216,28 @@ const expLogos = [
 
 const testimonials = [
     {
-        name: "Esther Howard",
-        mentions: "@estherhoward",
+        name: "Sergio Santilli",
+        mentions: "@sergiosantilli",
         review:
-            "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-        imgPath: "/images/client1.png",
+            "I had the pleasure of teaching Thavisha in INFT3102 at Durham College (Fall 2025), where she was one of the strongest, most diligent students in the program. She consistently demonstrated excellent technical skills, strong problem-solving ability, and a thoughtful, disciplined approach to her work. Easily a valuable asset to any organization, and I have no doubt she will excel in her future academic and professional pursuits.",
+        imgPath: "/images/icons8-person-male-50.png",
     },
     {
-        name: "Wade Warren",
-        mentions: "@wadewarren",
+        name: "Andrew Mayne",
+        mentions: "@andrewmayne",
         review:
-            "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-        imgPath: "/images/client3.png",
+            "Thavisha was a top-performing student across my mainframe development courses, demonstrating a clear focus on mastery and excellent problem-solving abilities. What sets them apart is their detail-oriented approach and a professional demeanor that makes them an asset in both independent and collaborative settings. They are a fully capable developer ready for complex professional challenges.",
+        imgPath: "/images/icons8-person-male-50-2.png",
     },
     {
-        name: "Guy Hawkins",
-        mentions: "@guyhawkins",
+        name: "Thomas Turner",
+        mentions: "@thomasturner",
         review:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        imgPath: "/images/client2.png",
-    },
-    {
-        name: "Marvin McKinney",
-        mentions: "@marvinmckinney",
-        review:
-            "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-        imgPath: "/images/client5.png",
-    },
-    {
-        name: "Floyd Miles",
-        mentions: "@floydmiles",
-        review:
-            "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-        imgPath: "/images/client4.png",
-    },
-    {
-        name: "Albert Flores",
-        mentions: "@albertflores",
-        review:
-            "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-        imgPath: "/images/client6.png",
+            "Thavisha is an inquisitive, dedicated learner who always takes the time to understand what is asked of her. " +
+            "In a class of sporadic attendance by her peers, she always arrived in time, ready to learn and work. " +
+            "She took the time to learn the foundational steps in both Kotlin and Flutter/dart and produced exceptional quality work." +
+            "If I had 1000 Thavisha's I'd be unstoppable. If I could hire her I would in a heartbeat ",
+        imgPath: "/images/icons8-person-male-50-3.png",
     },
 ];
 
