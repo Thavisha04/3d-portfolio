@@ -91,36 +91,76 @@ const abilities = [
 
 const techStackImgs = [
     {
-        name: "React Developer",
+        name: "React",
         imgPath: "/images/logos/react.png",
     },
     {
-        name: "Python Developer",
+        name: "Flutter",
+        imgPath: "/images/logos/flutter-tech.png",
+    },
+    {
+        name: "MySQL",
+        imgPath: "/images/logos/mysql.png",
+    },
+    {
+        name: "PostgreSQL",
+        imgPath: "/images/logos/postgresql.png",
+    },
+    {
+        name: "Salesforce",
+        imgPath: "/images/logos/salesforce.png",
+    },
+    {
+        name: "Java",
+        imgPath: "/images/logos/java.png",
+    },
+    {
+        name: "Tailwind",
+        imgPath: "/images/logos/tailwind.png",
+    },
+    {
+        name: "Python",
         imgPath: "/images/logos/python.svg",
     },
     {
-        name: "Backend Developer",
-        imgPath: "/images/logos/node.png",
+        name: "HTML5",
+        imgPath: "/images/logos/html.png",
     },
     {
-        name: "Interactive Developer",
-        imgPath: "/images/logos/three.png",
+        name: "CSS",
+        imgPath: "/images/logos/css.png",
     },
     {
-        name: "Project Manager",
+        name: "JavaScript",
+        imgPath: "/images/logos/js.svg",
+    },
+    {
+        name: "C#",
+        imgPath: "/images/logos/csharp.png",
+    },
+    {
+        name: ".NET",
+        imgPath: "/images/logos/dotnet.png",
+    },
+    {
+        name: "PHP",
+        imgPath: "/images/logos/php.png",
+    },
+    {
+        name: "Git",
         imgPath: "/images/logos/git.svg",
     },
 ];
 
 const techStackIcons = [
     {
-        name: "React Developer",
+        name: "React",
         modelPath: "/models/react_logo-transformed.glb",
         scale: 1,
         rotation: [0, 0, 0],
     },
     {
-        name: "Python Developer",
+        name: "Python",
         modelPath: "/models/python-transformed.glb",
         scale: 0.8,
         rotation: [0, 0, 0],
