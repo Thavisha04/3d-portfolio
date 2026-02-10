@@ -132,15 +132,15 @@ const techStackImgs = [
     },
     {
         name: "JavaScript",
-        imgPath: "/images/logos/js.svg",
+        imgPath: "/images/logos/js.webp",
     },
     {
         name: "C#",
-        imgPath: "/images/logos/csharp.png",
+        imgPath: "/images/logos/csharp1.png",
     },
     {
         name: ".NET",
-        imgPath: "/images/logos/dotnet.png",
+        imgPath: "/images/logos/dotnet1.png",
     },
     {
         name: "PHP",
@@ -149,6 +149,18 @@ const techStackImgs = [
     {
         name: "Git",
         imgPath: "/images/logos/git.svg",
+    },
+    {
+        name: "COBOL",
+        imgPath: "/images/logos/cobol.png",
+    },
+    {
+        name: "AWS Cloud",
+        imgPath: "/images/logos/aws9.png",
+    },
+    {
+        name: "Figma",
+        imgPath: "/images/logos/figma.png",
     },
 ];
 
