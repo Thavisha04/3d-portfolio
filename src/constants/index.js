@@ -44,42 +44,6 @@ const counterItems = [
     {value: 10, suffix: "+", label: "Team Projects Completed"},
 ];
 
-const logoIconsList = [
-    {
-        imgPath: "/images/logos/company-logo-1.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-2.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-3.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-4.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-5.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-6.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-7.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-8.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-9.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-10.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-11.png",
-    },
-];
-
 const abilities = [
     {
         imgPath: "/images/seo.png",
@@ -105,7 +69,7 @@ const techStackImgs = [
     },
     {
         name: "Flutter",
-        imgPath: "/images/logos/flutter-tech.png",
+        imgPath: "/images/logos/flutter.png",
     },
     {
         name: "MySQL",
@@ -145,11 +109,11 @@ const techStackImgs = [
     },
     {
         name: "C#",
-        imgPath: "/images/logos/csharp1.png",
+        imgPath: "/images/logos/csharp.png",
     },
     {
         name: ".NET",
-        imgPath: "/images/logos/dotnet1.png",
+        imgPath: "/images/logos/dotnet.png",
     },
     {
         name: "PHP",
@@ -165,7 +129,7 @@ const techStackImgs = [
     },
     {
         name: "AWS Cloud",
-        imgPath: "/images/logos/aws9.png",
+        imgPath: "/images/logos/aws.png",
     },
     {
         name: "Figma",
@@ -260,21 +224,6 @@ const expCards = [
 
 ];
 
-const expLogos = [
-    {
-        name: "logo1",
-        imgPath: "/images/logo1.png",
-    },
-    {
-        name: "logo2",
-        imgPath: "/images/logo2.png",
-    },
-    {
-        name: "logo3",
-        imgPath: "/images/logo3.png",
-    },
-];
-
 const testimonials = [
     {
         name: "Sergio Santilli",
@@ -315,14 +264,14 @@ const badgesCerts = [
         name: "Prompt Design in Vertex AI Skill Badge",
         organization: "Google",
         date: "Issued December 2025",
-        imgPath: "/images/logos/google1.png",
+        imgPath: "/images/logos/google.png",
         url: "https://www.credly.com/badges/b9c2a7e7-1638-4eda-a011-121c7b3b0c33/linked_in_profile",
     },
     {
         name: "AWS Academy Graduate - Cloud Developing - Training Badge",
         organization: "Amazon Web Services",
         date: "Issued December 2025",
-        imgPath: "/images/logos/aws6.png",
+        imgPath: "/images/logos/aws.png",
         url: "https://www.credly.com/go/eWSdL4vj",
     },
     {
@@ -383,10 +332,8 @@ const education = [
 export {
     words,
     abilities,
-    logoIconsList,
     counterItems,
     expCards,
-    expLogos,
     testimonials,
     socialImgs,
     techStackIcons,

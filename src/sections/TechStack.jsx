@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import TitleHeader from "../components/TitleHeader.jsx";
-import { techStackIcons, techStackImgs } from "../constants/index.js";
-import TechIcon from "../components/Models/TechLogos/TechIcon.jsx";
+import { techStackImgs } from "../constants/index.js";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
