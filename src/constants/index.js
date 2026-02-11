@@ -8,13 +8,22 @@ const navLinks = [
         link: "#experience",
     },
     {
+        name: "Education",
+        link: "#education",
+    },
+    {
         name: "Skills",
         link: "#skills",
+    },
+    {
+        name: "Certifications",
+        link: "#certifications",
     },
     {
         name: "Testimonials",
         link: "#testimonials",
     },
+
 ];
 
 const words = [
@@ -301,6 +310,76 @@ const socialImgs = [
     },
 ];
 
+const badgesCerts = [
+    {
+        name: "Prompt Design in Vertex AI Skill Badge",
+        organization: "Google",
+        date: "Issued December 2025",
+        imgPath: "/images/logos/google1.png",
+        url: "https://www.credly.com/badges/b9c2a7e7-1638-4eda-a011-121c7b3b0c33/linked_in_profile",
+    },
+    {
+        name: "AWS Academy Graduate - Cloud Developing - Training Badge",
+        organization: "Amazon Web Services",
+        date: "Issued December 2025",
+        imgPath: "/images/logos/aws6.png",
+        url: "https://www.credly.com/go/eWSdL4vj",
+    },
+    {
+        name: "Formstack Forms Level 3: Advanced Integrations and Customization",
+        organization: "Intellistack",
+        date: "Issued October 2025",
+        imgPath: "/images/logos/intellistack.avif",
+        url: "https://academy.intellistack.com/certificate/08V4k5GPKg",
+    },
+    {
+        name: "Formstack Forms Level 2: Intermediate Techniques",
+        organization: "Intellistack",
+        date: "Issued October 2025",
+        imgPath: "/images/logos/intellistack.avif",
+        url: "https://academy.intellistack.com/certificate/zNF2EwEyAA",
+    },
+    {
+        name: "Formstack Forms Level 1: Beginner Essentials",
+        organization: "Intellistack",
+        date: "Issued October 2025",
+        imgPath: "/images/logos/intellistack.avif",
+        url: "https://academy.intellistack.com/certificate/PO3EiSTxCw",
+    },
+    {
+        name: "Learning Confluence",
+        organization: "LinkedIn",
+        date: "Issued May 2025",
+        imgPath: "/images/logos/linkedin.png",
+        url: "https://www.linkedin.com/learning/certificates/78251d5b15117072487a6765d1154d9884cb03fec0bbb82065ecddb1f15be8a3",
+    },
+];
+
+const education = [
+    {
+        imgPath: "/images/dc-logo.png",
+        program: "Computer Programming and Analysis - Advanced Diploma",
+        credential: "Advanced Diploma",
+        institution: "Durham College",
+        date: "January 2024 – April 2026",
+        cgpa: "4.89 / 5.0",
+        courses: [
+            "Object-Oriented Programming",
+            "Web Development",
+            "Database Development",
+            "Cloud Technology",
+            "Systems Development",
+            "Mainframe Development",
+            "Mobile Development",
+            "Software Testing and Automation"
+
+        ]
+    }
+
+
+];
+
+
 export {
     words,
     abilities,
@@ -313,4 +392,6 @@ export {
     techStackIcons,
     techStackImgs,
     navLinks,
+    education,
+    badgesCerts
 };
