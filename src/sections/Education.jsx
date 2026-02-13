@@ -11,8 +11,8 @@ const Education = () => {
                 </div>
                 <div className="flex flex-col items-center gap-8 mt-16">
                     {education.map(
-                        ({ imgPath, program, credential, institution, date, cgpa, courses }, index) => (
-                            <EducationCard key={index} card={{ credential }}>
+                        ({imgPath, program, credential, institution, date, cgpa, courses}, index) => (
+                            <EducationCard key={index} card={{credential}}>
                                 <div className="flex items-start gap-6">
 
                                     {/* Logo (smaller) */}
@@ -36,11 +36,19 @@ const Education = () => {
                                         {/* Courses */}
                                         <p className="font-semibold mb-2">Key Courses Completed:</p>
 
-                                        <ul className="grid grid-cols-2 gap-x-8 gap-y-1 list-disc list-inside text-white-50 text-sm">
+                                        <ul
+                                            className="grid grid-cols-1 sm:grid-cols-2
+                                             gap-x-6 gap-y-2
+                                             list-disc list-inside
+                                             text-white-50 text-sm"
+                                        >
                                             {courses.map((course, i) => (
-                                                <li key={i}>{course}</li>
+                                                <li key={i} className="leading-snug">
+                                                    {course}
+                                                </li>
                                             ))}
                                         </ul>
+
 
                                     </div>
 
