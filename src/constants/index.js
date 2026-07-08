@@ -175,7 +175,7 @@ const expCards = [
         imgPath: "/images/exp1.png",
         logoPath: "/images/dc-logo.png",
         title: "Salesforce Administrator Assistant",
-        date: "September 2025 - Present",
+        date: "September 2025 - April 2026",
         responsibilities: [
             "Maintain and ensure accuracy in Salesforce CRM student data via imports, deduplication, and validation",
             "Manage Salesforce objects and automate workflows using Flow Builder, validation rules, and processes",
@@ -226,18 +226,16 @@ const expCards = [
 
 const testimonials = [
     {
-        name: "Sergio Santilli",
-        mentions: "@sergiosantilli",
+        name: "Kyle Chapman",
+        mentions: "@kylechapman",
         review:
-            "I had the pleasure of teaching Thavisha in INFT3102 at Durham College (Fall 2025), where she was one of the strongest, most diligent students in the program. She consistently demonstrated excellent technical skills, strong problem-solving ability, and a thoughtful, disciplined approach to her work. Easily a valuable asset to any organization, and I have no doubt she will excel in her future academic and professional pursuits.",
+            "I worked with Thavisha across four courses between 2024 and 2025. She consistently produced outstanding work, " +
+            "often earning the highest grade in the class. Her dedication, strong work ethic, and willingness to seek feedback" +
+            " played a key role in her rapid growth. Thavisha is organized, reliable, and a natural leader who keeps her teams " +
+            "focused and on track. Beyond her technical skills, she is curious, professional, and actively contributes to " +
+            "the college community through volunteering and tutoring. She brings energy, commitment, and professionalism to " +
+            "everything she does, and she is an absolute pleasure to work with.",
         imgPath: "/images/icons8-person-male-50.png",
-    },
-    {
-        name: "Andrew Mayne",
-        mentions: "@andrewmayne",
-        review:
-            "Thavisha was a top-performing student across my mainframe development courses, demonstrating a clear focus on mastery and excellent problem-solving abilities. What sets them apart is their detail-oriented approach and a professional demeanor that makes them an asset in both independent and collaborative settings. They are a fully capable developer ready for complex professional challenges.",
-        imgPath: "/images/icons8-person-male-50-2.png",
     },
     {
         name: "Thomas Turner",
@@ -249,6 +247,39 @@ const testimonials = [
             "If I had 1000 Thavisha's I'd be unstoppable. If I could hire her I would in a heartbeat ",
         imgPath: "/images/icons8-person-male-50-3.png",
     },
+    {
+        name: "Stephen Forbes",
+        mentions: "@stephenforbes",
+        review:
+            "Thavisha was enrolled in several of my classes at Durham College, and she consistently stood out for all the right reasons. " +
+            "She is detail-oriented, dedicated, self-driven, accountable, organized, and an excellent communicator. More importantly, " +
+            "she applied these qualities with remarkable consistency and professionalism." +
+            "She was always prepared, followed through on her commitments, and approached every challenge with a genuine desire to learn" +
+            " and grow. Beyond her technical abilities, Thavisha's work ethic and positive presence elevated those around her and set a " +
+            "standard others noticed. If I were hiring a talented new graduate, Thavisha would be at the top of my list without hesitation." +
+            " Any organization would be fortunate to have her on their team.",
+        imgPath: "/images/icons8-person-male-50-2.png",
+    },
+    {
+        name: "Sergio Santilli",
+        mentions: "@sergiosantilli",
+        review:
+            "I had the pleasure of teaching Thavisha in INFT3102 at Durham College (Fall 2025), where she was one of " +
+            "the strongest, most diligent students in the program. She consistently demonstrated excellent technical " +
+            "skills, strong problem-solving ability, and a thoughtful, disciplined approach to her work. Easily a " +
+            "valuable asset to any organization, and I have no doubt she will excel in her future academic and professional pursuits.",
+        imgPath: "/images/icons8-person-male-50.png",
+    },
+    {
+        name: "Andrew Mayne",
+        mentions: "@andrewmayne",
+        review:
+            "Thavisha was a top-performing student across my mainframe development courses, demonstrating a clear focus" +
+            " on mastery and excellent problem-solving abilities. What sets them apart is their detail-oriented approach" +
+            " and a professional demeanor that makes them an asset in both independent and collaborative settings. " +
+            "They are a fully capable developer ready for complex professional challenges.",
+        imgPath: "/images/icons8-person-male-50-2.png",
+    },
 ];
 
 const socialImgs = [
@@ -257,15 +288,34 @@ const socialImgs = [
         imgPath: "/images/linkedin.png",
         url: "https://www.linkedin.com/in/thavisha-dayarathna/",
     },
+    {
+        name: "github",
+        imgPath: "/images/github.png",
+        url: "https://github.com/Thavisha04",
+    },
 ];
 
 const badgesCerts = [
+    {
+        name: "IBM Z Xplore - Concepts",
+        organization: "IBM",
+        date: "Issued February 2026",
+        imgPath: "/images/logos/ibm.png",
+        url: "https://www.credly.com/badges/0cbb68b5-2fea-42f5-9f1d-d746697f8589",
+    },
     {
         name: "Prompt Design in Vertex AI Skill Badge",
         organization: "Google",
         date: "Issued December 2025",
         imgPath: "/images/logos/google.png",
         url: "https://www.credly.com/badges/b9c2a7e7-1638-4eda-a011-121c7b3b0c33/linked_in_profile",
+    },
+    {
+        name: "AWS Academy Graduate - Cloud Operations - Training Badge",
+        organization: "Amazon Web Services",
+        date: "Issued April 2026",
+        imgPath: "/images/logos/aws.png",
+        url: "https://www.credly.com/badges/6de1df8c-55a5-496a-8a96-6b3aaf7585e0",
     },
     {
         name: "AWS Academy Graduate - Cloud Developing - Training Badge",
@@ -311,7 +361,7 @@ const education = [
         credential: "Advanced Diploma",
         institution: "Durham College",
         date: "January 2024 – April 2026",
-        cgpa: "4.89 / 5.0",
+        cgpa: "4.9 / 5.0",
         courses: [
             "Object-Oriented Programming",
             "Web Development",
@@ -322,6 +372,11 @@ const education = [
             "Mobile Development",
             "Software Testing and Automation"
 
+        ],
+        awards: [
+            "Highest-Ranking Graduate – Computer Programming and Analysis",
+            "President's Honour Roll – Every semester attended",
+            "General Motors of Canada Company Scholarship for Academic Excellence – Year I"
         ]
     }
 

@@ -11,7 +11,7 @@ const Education = () => {
                 </div>
                 <div className="flex flex-col items-center gap-8 mt-16">
                     {education.map(
-                        ({imgPath, program, credential, institution, date, cgpa, courses}, index) => (
+                        ({imgPath, program, credential, institution, date, cgpa, courses, awards}, index) => (
                             <EducationCard key={index} card={{credential}}>
                                 <div className="flex items-start gap-6">
 
@@ -49,7 +49,19 @@ const Education = () => {
                                             ))}
                                         </ul>
 
+                                        {/* Awards */}
+                                        <p className="font-semibold mb-2 mt-3">Awards & Achievements:</p>
 
+                                        <ul
+                                            className="list-disc list-inside space-y-2
+                                             text-white-50 text-sm"
+                                        >
+                                            {awards.map((award, i) => (
+                                                <li key={i} className="leading-snug">
+                                                    {award}
+                                                </li>
+                                            ))}
+                                        </ul>
                                     </div>
 
                                 </div>
